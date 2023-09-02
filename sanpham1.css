@@ -1,0 +1,76 @@
+.sanpham1{
+    display: flex;
+}
+h4{
+    padding-bottom: 3px;
+    font-size: 20px;
+}
+p{
+    padding-bottom: 10px;
+}
+.tong{
+    display: flex;
+}
+.button1{
+   
+    margin-right: 10px;
+    margin-bottom: 10px;  
+}
+.button1 img{
+    height: 500px;
+    width: 300px;
+}
+
+button{
+    padding: 5px;
+    border-radius: 7px;   
+    cursor: pointer;
+}
+.button1 button{ 
+    display: inline-block;
+        background-color: #105d2f;
+        padding: 10px 30px;
+        border-radius: 12px;
+        text-decoration: none;
+        color: #ffffff;
+        text-transform: uppercase;
+        font-weight: bold;
+}
+.button2 button{
+    background-color: rgb(134, 201, 33);
+    padding: 10px 30px;
+    border-radius: 12px;
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.anhkhac{
+    padding: 50px 0px;
+    
+}
+.anhkhac p{
+    text-align: center;
+}
+.anhkhac h4{
+    text-align: center;
+}
+.splq{
+    width: 370px;
+}
+ h1{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 50px;
+    color:rgb(155, 232, 41);
+}
+h2{
+    padding: 20px;
+   color: rgb(155, 232, 41);
+   font-size: 30px;
+}
+.anhsp{
+    padding-top: 50px;
+}
+

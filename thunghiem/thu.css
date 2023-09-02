@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(green,rgb(157, 209, 157));
+}
+.box{
+    width: 200px;
+    height: 200px;
+    border:  2px solid black;
+    background-color: white;
+    margin: 5px;
+}
+.target{
+    width: 100%;
+    height: 100%;
+    background-image: url(../anh/cute.jpg);
+}

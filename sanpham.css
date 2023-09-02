@@ -1,0 +1,41 @@
+
+h1{
+    text-align: center;
+    padding-top: 40px;
+    color: rgb(155, 232, 41);
+    font-size: 50px;
+}
+h2{
+    cursor: pointer;
+    color: green;
+}
+p{
+    text-align: center;
+    padding: 10px 0px;
+    color: rgb(142, 188, 77);
+}
+.sanpham1{
+    display: flex;
+    padding: 50px 100px;
+    justify-content: space-between;
+}
+.sanpham2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 50px;
+}
+.sanpham3{
+    text-align: center;
+}
+.sanpham1 img{
+    cursor: pointer;
+}
+.sanpham2 img{
+    cursor: pointer;
+}
+.sanpham3 img{
+    cursor: pointer;
+}
+.anh1 p{
+    padding-bottom: 40px;
+}

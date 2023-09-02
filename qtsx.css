@@ -1,0 +1,143 @@
+.qtsx{
+        height: 70%;
+        width: 80%;
+        display: flex;
+}
+
+.sp1 img{
+    border: 3px solid greenyellow;
+    border-radius: 10px;
+    height: 150px;
+    width: 250px;
+}
+.sp2 img{
+    border: 3px solid greenyellow;
+    height: 150px;
+    width: 250px;
+    border-radius: 10px;
+}
+.sp1 p{
+    width: 250px;
+}
+.sp2{
+    display: grid;
+grid-template-columns: 1fr 1fr;
+
+}
+.anh0{
+    padding: 10px;
+    text-align: center;
+    margin: 20px 20px;
+}
+.anh1{
+    padding: 10px;
+    text-align: center;
+    margin: 60px 0px 80px 180px;
+}
+.sp1{
+    padding-top: 230px;
+    text-align: center;
+    margin: 0px 20px;
+}
+.icons-arrow .fa-arrow-left-long{
+    color: greenyellow;
+    position: absolute;
+    font-size: 60px;
+    right: 530px;
+    top: 1300px;
+} 
+.fa-arrow-right-long{
+    color: greenyellow;
+    position: absolute;
+    font-size: 60px;
+    right: 538px;
+    top: 870px;
+}
+.fa-arrow-down-long{
+    color: greenyellow;
+    position: absolute;
+    font-size: 60px;
+    right: 310px;
+    top: 1130px;
+}
+.fa-arrow-right{
+    color: greenyellow;
+    position: absolute;
+    font-size: 60px;
+    left: 220px;
+    top: 860px;
+}
+
+h1{
+    text-align: center;
+    padding: 20px;
+    color: rgb(155, 232, 41);
+}
+h2{
+    padding-bottom: 10px;
+    color: green;
+}
+p{
+    text-align: center;
+}
+h4{
+    color: rgb(142, 188, 77);
+}
+.icons-arrow1 .fa-arrow-left-long{
+    color: greenyellow;
+    position: absolute;
+    right: 530px;
+    bottom: -1580px;
+    font-size: 60px;
+}
+.icons-arrow1 .fa-arrow-right-long{
+    color: greenyellow;
+    position: absolute;
+    font-size: 60px;
+    right: 530px;
+    top: 1850px;
+}
+.icons-arrow1 .fa-arrow-down-long{
+    color: greenyellow;
+    position: absolute;
+    font-size: 60px;
+    right: 310px;
+    top: 2110px;
+}
+.icons-arrow1 .fa-arrow-right{
+    color: greenyellow;
+    position: absolute;
+    font-size: 60px;
+    left: 210px;
+    top: 1860px;
+} 
+
+
+.icons-arrow2 .fa-arrow-left-long{
+    color: greenyellow;
+    position: absolute;
+    right: 520px;
+    bottom: -2545px;
+    font-size: 60px;
+}
+.icons-arrow2 .fa-arrow-right-long{
+    color: greenyellow;
+    position: absolute;
+    font-size: 60px;
+    right: 535px;
+    top: 2820px;
+}
+.icons-arrow2 .fa-arrow-down-long{
+    color: greenyellow;
+    position: absolute;
+    font-size: 60px;
+    right: 310px;
+    top: 3090px;
+}
+.icons-arrow2 .fa-arrow-right{
+    color: greenyellow;
+    position: absolute;
+    font-size: 60px;
+    left: 220px;
+    top: 2830px;
+} 

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <base href="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="b1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="dangnhap.css">
+    <script>
+        function hienthi(check){
+             var hbc=document.getElementById('hbc');
+             hbc.style.display=check? "":"none"
+        }
+    </script>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+        <div class="header">
+          <img src="anh/logo2.png" alt="" >
+        </div>
+        <div class="iconst">
+            <div class="icon2">    
+                <i class="fa-solid fa-phone fa-beat"></i><br>
+                <i class="fa-brands fa-instagram fa-beat"></i><br>
+                <i class="fa-brands fa-facebook fa-beat"></i>
+            </div>
+        </div>
+        <div class="nav">
+            <ul class="menu">
+                <li><a href="b1.html" >Trang chủ</a></li>
+                <li><a href="b2.html" >Giới thiệu</a></li>
+                <li><a href="qtsx.html" >Quy trình sản xuất</a></li>
+                <li><a href="sanpham.html" >Sản phẩm</a></li>
+                <li><a href="b5.html">Liên hệ</a></li>
+            </ul>
+            <div class="giohang" >
+                <img src="anh/gioh.png" alt="" width="30" height="30">
+            </div>
+            
+            <div class="so3">
+                <i class="fa-solid fa-3"></i>
+            </div>
+            
+            <div class="dktk">
+                <button><a href="">Đăng Nhập</a></button>
+                <button><a href="dangnhap.html">Đăng Ký</a></button>
+            </div>
+          
+            <form action="" class="tk">
+                <input type="text" required placeholder="Tìm Kiếm sản phẩm" class="sp">
+                <input type="submit" value="search" class="tksp">
+            </form>
+        </div>
+       </header>
+       
+       <div class="banner">
+        <div class="wrapper1">
+            <img src="anh/bannerxoai.jpg" alt="">
+            <img src="anh/bannertao.jpg" alt="">
+            <img src="anh/bannerdau.jpg" alt="" >
+            <img src="anh/bannertao.jpg" alt="">
+        </div>
+    </div>
+    
+       <div class="text">
+            <marquee>Nước trái cây không chỉ giúp giải khát nhanh chóng mà còn cung cấp nhiều vitamin C, A, B1, B2,... rất tốt cho da và sức khỏe. Mới đây thương hiệu TH True Juice đã cho ra mắt nhiều dòng sản phẩm nước trái cây nhiều hương vị được làm ra từ nguồn nguyên liệu hoàn toàn tự nhiên.</marquee>
+       </div>
+        
+    
+    <main>
+        <section class="col8">
+    
+            <form action="">
+                <div class="form">
+                    <label for="">
+                        Tên đăng ký:
+                    </label>
+                    <input type="text" ><br>
+
+                    <label for="">
+                        Mật khẩu:
+                    </label>
+                    <input type="password" ><br>
+
+                    <label for="">
+                        Email:
+                    </label>
+                    <input type="email" ><br>
+
+                    <label for="">
+                        Độ tuổi:
+                    </label>
+                    <input type="number" ><br>
+
+                    <label for="">
+                        Thành phố:
+                    </label>
+                    <input list="city" ><br>
+                    <datalist id="city">
+                        <option value="Hà Nội" checked>
+                        <option value="Hải Phòng">
+                        <option value="Đà Nẵng">
+                        <option value="Hải Dương">
+                        <option value="Cà Mau">
+                    </datalist>
+
+                    
+                </div>
+                <label for="">Sở thích:</label>
+                      <div class="sothich">
+                        <label for=""><input type="checkbox" value="ds" name="hobbies">Đọc sách</label>
+                        <label for=""><input type="checkbox" value="xp" name="hobbies">Xem phim</label>
+                        <label for=""><input type="checkbox" value="nn" name="hobbies">Nghe nhạc</label>
+                        <label for=""><input type="checkbox" value="db" name="hobbies">Đá bóng</label>
+                        <label for=""><input type="checkbox"  name="hobbies" onclick="hienthi(checked)">Khác</label>
+                      </div>
+                      <p id="hbc" style="display: none;">
+                        <label >Sở thích khác</label>
+                        <input type="text">
+                      </p>
+                      <br>
+                <p class="baiviet">Bạn muốn theo dõi sản phẩm nào?</p>
+                <div class="choose">
+                    <label for="">
+                        <input type="checkbox" > Nước uống sữa trái cây TH true JUICE milk
+                    </label>
+                    <label for="">
+                        <input type="checkbox" > Sữa tươi tiệt trùng TH true MILK
+                    </label>
+                    <label for="">
+                        <input type="checkbox" > Nước trái cây xay
+                    </label>
+                    <label for="">
+                        <input type="checkbox" > Sữa hạt TH true NUT
+                    </label>
+                </div>
+                 <div class="input1">
+                    <input type="reset" value="Nhập lại">
+                    <input type="submit" value="Đăng ký" required>
+                 </div>
+
+            </section>
+            <aside class="col4">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.884130884515!2d105.84555894040201!3d21.037321725257538!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab04b1c6f413%3A0xada0e83f4000c395!2sTH%20True%20Mart!5e0!3m2!1svi!2s!4v1685111154217!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </aside>
+
+
+                 <div class="footer">
+                    <div class="logo2">
+                        <img src="anh/logo2.png" alt="" height="100" width="200">
+                    </div>
+          <div class="item"><a href="">Liên hệ chúng tôi</a></li></div>       
+          <div class="item"><a href="">Bản quyển</a></li></div>      
+          <div class="item"><a href="">Quảng cáo</a></li></div>      
+          <div class="item"><a href="">Phục vụ TH juice</a></li></div>       
+          <div class="item"><a href="">Điều khoản và điều kiện</a></li></div>      
+          <div class="item"><a href="">Sự thật sản phẩm</a></li></div>       
+          <div class="item"><a href="">Chính sách bảo mật</a></li></div>       
+          <div class="item"><a href="">Định vị cửa hàng</a></li></div>      
+          <div class="item"><a href="">Đối tác tiềm năng</a></li></div>
+          <div class="nut">
+            <button>Theo dõi chúng tôi</button>
+        </div>   
+        <div class="icons">
+            <i class="fa-brands fa-square-facebook"></i>
+            <i class="fa-brands fa-square-youtube"></i>
+            <i class="fa-brands fa-square-twitter"></i>
+            <i class="fa-brands fa-square-instagram"></i>
+        </div>   
+        </div>
+    </div>
+</body>
+</html>

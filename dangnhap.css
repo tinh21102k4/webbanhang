@@ -1,0 +1,59 @@
+
+.col4{
+    float: left;
+    width: 350px;
+    min-height: 600px;
+    padding-top: 10px;
+    padding-left: 210px;
+}
+.col8{
+    float: left;
+    width: 590px;
+    min-height: 600px;
+}
+form{
+    padding-left: 20px;
+    margin: 20px 0px;
+}
+.form label{
+    width: 125px;
+    float: left;
+    padding-right: 20px;
+}
+.form input{
+    width: 50%;
+    margin-bottom: 10px;
+    margin-right: 120px;
+    padding: 3px;
+}
+.choose input{
+    margin-top: 20px;
+    background-color: #ebebeb;
+}
+.choose{
+    padding-left: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.input1{
+    margin-top: 20px;
+    padding-left: 160px;
+}
+.input1 input{
+    padding: 5px 10px;
+    color: #2598c2;
+    background-color: #ebebeb;
+    border: 1px solid rgb(76, 73, 73);
+}
+.sothich label{
+    padding-left: 10px;
+}
+#hbc{
+    padding-top: 10px;
+    padding-left: 20px;
+}
+#hbc input{
+    padding: 10px;
+    width: 300px;
+}
+
